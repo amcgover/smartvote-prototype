@@ -1,0 +1,147 @@
+Enter file contents herebody{
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+img.ballot{
+     position: fixed;
+     height: 60px; 
+     width: 60px;
+     left: 56px;
+     top: 9px;
+ }
+
+img.smartvoteUrl{
+    position: fixed;
+    height: 28px;
+    width: 206px;
+    left: 142px;
+    top: 28px;
+    font-family: Roboto;
+    color: #231f20;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    font-family: Roboto;
+    color: #0582b8;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+a.about{
+    position: fixed;
+    height: 14px;
+    width: 137px;
+    left: 415px;
+    top: 41px;
+    font-family: Roboto;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+a.contact{
+    position: fixed;
+    height: 13px;
+    width: 89px;
+    left: 580px;
+    top: 41px;
+    font-family: Roboto;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+a.sulogo{
+    position: fixed;
+    left: 1029px;
+    top: 0px;
+}
+
+a.UO{
+    position: fixed;
+    left: 1161px;
+    top: 7px;
+}
+
+a:link {text-decoration: none }
+
+suLogoImage{
+    height: 75px;
+    width: 80px;
+}
+
+img.Step1Image{
+    position: fixed;
+    top: 77px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+}
+
+p.needHelp{
+    position: fixed;
+    left: 142px;
+    top: 157px;
+    font-size: 200%;
+}
+
+p.takeQuiz{
+    position: fixed;
+    left: 142px;
+    top: 267px;
+}
+
+div.enterEmail{
+    position: fixed;
+    left: 142px;
+    top: 427px;
+    height: 115px;
+    width: 967px;
+    background-color: #000040;
+}
+
+form.askEmail{
+    position: fixed;
+    left: 157px;
+}
+
+input.email{
+     position: fixed;
+     top: 457px;
+     height: 61px;
+     width: 302px;
+     font-size: 25px;
+     border-radius:  5px;
+     border-width:  1px;
+     border-style:  solid;
+     border-color: #593132;
+}
+
+input.TakeTheQuiz{
+    position: fixed;
+    left: 669px;
+    top: 457px;
+    height: 61px;
+    width: 251px;
+    background-color: #128a0e;
+    border: #128a0e;
+    font-size: 24px;
+    color: #fffeff;
+}
+
+div.BottomBorder{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: #0b6ca1;
+}
