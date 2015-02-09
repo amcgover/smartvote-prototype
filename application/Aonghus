@@ -1,0 +1,53 @@
+<html>
+ <head>
+  <title>Step 1</title>
+     <link rel="stylesheet" href="main.css">
+     <link rel="shortcut icon" href="Heading/Ballot.png">
+ </head>
+ <body>
+     
+     <!--Heading-->
+     <img src="Heading/Ballot.png" class="ballot">
+     <img src="Heading/SmartvoteUrl.png" class="smartvoteUrl">
+     <a class="about" href="">About Smartvote</a>
+     <a class="contact" href="">Contact Us</a>
+     <a href="http://www.ucdsu.ie/" class="sulogo"><img src="Heading/SULogo.png" class="suLogoImage"></a>
+     <a href="http://www.universityobserver.ie/" class="UO"><img src="Heading/UO.png" class="UOImage"></a>
+     <!--End Heading-->
+     
+     <!--Salutation-->
+     <div class="salutation">
+     <img src="Step-1-BG.jpg" class="Step1Image">
+     <p class="needHelp">Need help finding out who to vote<br> for on March 3rd?</p>
+     <p class="takeQuiz">Take a quick quiz and give your opinion on what issues should be most<br> important
+             to your 2015-2016 sabbatical officers.</p>
+     </div>
+     <!--End Salutation-->
+     
+     <!--Enter Email-->
+     <div class="enterEmail">
+         <form action="Step1.php" class="askEmail" method="get">Enter your UCD email below to get started:<br><br>
+             <input class="email" type="text" title="Only ucd.ie addresses permitted" name="email">
+             <input type="submit" class="TakeTheQuiz" value="Take the Quiz:">
+         </form>
+     </div>
+     <!--End Enter Email-->
+     
+     <!--Bottom Border-->
+     <div class="BottomBorder">&nbsp;</div>
+     <!--End Bottom Border-->
+     
+ <?php 
+    if (!empty($_GET['email'])) {     
+         $username = $_GET['email'];
+         $username = strrev($username);
+         if(stripos($username, "ei.dcu@") === 0) { 
+             //CODE REQUIRED : Make a database entry for the person's email
+             header("Location: Step2.php");
+             die();
+         }
+    }
+     
+     ?> 
+ </body>
+</html> 
